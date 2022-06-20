@@ -46,7 +46,7 @@
             spectacular perspective, and the lights.
           </p>
           <img
-            src="public/newyork.jpg"
+            src="../assets/newyork.jpg"
             alt="times square"
             width="30%"
             height="20%"
@@ -63,7 +63,7 @@
             Vessel, a climbable beehive.
           </p>
           <img
-            src="public/Hudson.jpeg"
+            src="../assets/Hudson.jpeg"
             alt="times square"
             width="30%"
             height="30%"
@@ -81,7 +81,7 @@
             falling water against a backdrop of pillars and massive columns.
           </p>
           <img
-            src="public/penscave.jpeg"
+            src="../assets/penscave.jpeg"
             alt="times square"
             width="30%"
             height="20%"
@@ -99,7 +99,7 @@
             falling water against a backdrop of pillars and massive columns.
           </p>
           <img
-            src="public/epcot.jpeg"
+            src="../assets/epcot.jpeg"
             alt="times square"
             width="30%"
             height="20%"
@@ -117,7 +117,7 @@
             falling water against a backdrop of pillars and massive columns.
           </p>
           <img
-            src="public/animalkingdom.jpeg"
+            src="../assets/animalkingdom.jpeg"
             alt="times square"
             width="30%"
             height="20%"
@@ -135,7 +135,7 @@
             falling water against a backdrop of pillars and massive columns.
           </p>
           <img
-            src="public/miamibech.jpeg"
+            src="../assets/miamibech.jpeg"
             alt="times square"
             width="30%"
             height="20%"
@@ -153,7 +153,7 @@
             falling water against a backdrop of pillars and massive columns.
           </p>
           <img
-            src="public/spacecenter.jpeg"
+            src="../assets/spacecenter.jpeg"
             alt="times square"
             width="30%"
             height="20%"
@@ -171,7 +171,7 @@
             falling water against a backdrop of pillars and massive columns.
           </p>
           <img
-            src="public/acediapark.JPG"
+            src="../assets/acediapark.jpeg"
             alt="times square"
             width="30%"
             height="20%"

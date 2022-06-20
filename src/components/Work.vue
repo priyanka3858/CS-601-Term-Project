@@ -60,7 +60,7 @@
           </tr>
           <tr>
             <td>
-              <img src="public/pm.jpeg" alt="pm" height="200" width="200" />
+              <img src="../assets/pm.jpeg" alt="pm" height="200" width="200" />
             </td>
             <td>Password Manager</td>
             <td>
@@ -71,7 +71,7 @@
           <tr>
             <td>
               <img
-                src="public/crypto_price.png"
+                src="../assets/crypto_price.png"
                 alt="crypto_pric"
                 height="200"
                 width="200"
@@ -86,7 +86,7 @@
           <tr>
             <td>
               <img
-                src="public/schedular.png"
+                src="../assets/schedular.png"
                 alt="schedular"
                 height="200"
                 width="200"

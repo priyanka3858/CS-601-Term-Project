@@ -16,7 +16,7 @@
         <div>
           <img
             class="bio-image"
-            src="public/coder.png"
+            src="../assets/coder.png"
             alt="myimage"
             width="380"
             height="250"

@@ -4,7 +4,7 @@
     <div class="about_image">
       <img
         class="my_image"
-        src="public/my_photo.jpg"
+        src="../assets/my_photo.jpg"
         alt="myimage"
         width="230"
         height="250"
@@ -30,7 +30,7 @@
   margin: 45px;
 }
 .home {
-  /* background-image: url("public/aa.jpeg"); */
+  /* background-image: url("../assets/aa.jpeg"); */
   /* background: #344557
     url(https://unsplash.imgix.net/photo-1423683249427-8ca22bd873e0?fit=crop&fm=jpg&h=700&q=75&w=1050)
     0 0 no-repeat; */

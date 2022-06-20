@@ -11,7 +11,7 @@
       <div>
         <img
           class="bio-image"
-          src="public/contact-us.png"
+          src="../assets/contact-us.png"
           alt="contact-image-reference"
           height="250"
           width="527"
@@ -32,7 +32,7 @@
             <div class="social-link">
               <img
                 class="email"
-                src="public/email.png"
+                src="../assets/email.png"
                 alt="email-image"
                 height="40"
                 width="50"
@@ -44,7 +44,7 @@
             <div class="social-link">
               <img
                 class="github"
-                src="public/GitHub.png"
+                src="../assets/GitHub.png"
                 alt="github-image"
                 height="40"
                 width="50"
@@ -61,7 +61,7 @@
             <div class="social-link">
               <img
                 class="facebook"
-                src="public/facebook.png"
+                src="../assets/facebook.png"
                 alt="facebook-image"
                 height="40"
                 width="50"
@@ -78,7 +78,7 @@
             <div class="social-link">
               <img
                 class="twitter"
-                src="public/twitter.png"
+                src="../assets/twitter.png"
                 alt="twitter-image"
                 height="40"
                 width="45"
@@ -95,7 +95,7 @@
             <div class="social-link">
               <img
                 class="Phone"
-                src="public/phonenumber.png"
+                src="../assets/phonenumber.png"
                 alt="phone-image"
                 height="35"
                 width="50"
