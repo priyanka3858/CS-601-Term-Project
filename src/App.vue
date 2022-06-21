@@ -30,7 +30,9 @@
     </header>
     <router-view class=""></router-view>
     <footer>
-      <p class="footer-name">&copy; Priyanka Vekariya</p>
+      <p class="footer-name">
+        &copy; © 2022 Priyanka Vekariya. All rights reserved.
+      </p>
     </footer>
   </body>
 </template>
@@ -45,6 +47,7 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 .nav-list {
+  display: block;
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -62,7 +65,8 @@ a {
   font-size: 27px;
   padding: 0 22px;
   display: inline-block;
-  color: black;
+  color: rgb(147, 127, 127);
+  font-weight: 600;
 }
 
 a:hover {

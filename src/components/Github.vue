@@ -63,7 +63,7 @@ export default {
 <style scoped>
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   /* background-color: #aac4d9; */
   padding: 10px;
   column-gap: 10px;
