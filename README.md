@@ -1,7 +1,15 @@
-# Vue 3 + Vite
+# MET CS 601 Term Project - Portfolio
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### Description of Project
 
-## Recommended IDE Setup
+---
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- The completed version of my website contains the HTML, CSS, Javascript, Vue , DOM for 7 fully designed and styled pages that use JavaScript.
+- The homepage is the filename _"Home.vue"_. I have placed the every page as Components in Components Folder. There are 7 Components in total. _"Home.vue", "About.vue", "Education.vue", "Work.vue", "Github.vue", "Travel.vue", "Conatct.vue"._
+- Header, Footer, and Navigation Bar store as an seperate componentefile "App.vue" and link with every (page)Components file.
+- To access the live website (which is hosted on Netlify) link:-
+- I have also placed the images in the "../src/assets" directory.
+
+### Important Notes
+
+---
