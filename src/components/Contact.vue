@@ -82,10 +82,6 @@ const social = [
 
       <div class="contact-header2">
         <h2 class="contact-header-para"><b>Let's work together....</b></h2>
-        <!-- <p class="contact-para">
-          Here you can find me online and send me a message. the best you can
-          find me via the Email address and Phone number.
-        </p> -->
       </div>
 
       <h3 class="form-info">Contact me</h3>
@@ -98,6 +94,7 @@ const social = [
             id="fname"
             name="firstname"
             placeholder="Your name.."
+            required
           />
 
           <label for="lname">Last Name</label>
@@ -106,6 +103,7 @@ const social = [
             id="lname"
             name="lastname"
             placeholder="Your last name.."
+            required
           />
           <label for="email">Email</label>
           <input type="text" placeholder="Email address" name="mail" required />
@@ -116,6 +114,7 @@ const social = [
             name="subject"
             placeholder="Write something.."
             style="height: 200px"
+            required
           ></textarea>
 
           <input type="submit" value="Submit" />
@@ -169,6 +168,8 @@ const social = [
 input[type="text"],
 select,
 textarea {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -189,7 +190,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #dce861;
+  background-color: burlywood;
 }
 
 .container {
@@ -274,10 +275,6 @@ blockquote::after {
   justify-content: space-between;
 }
 
-/** <div class="contact-links">
-        <ul class="links-list">
-          <li class="contact-links-list">
-            <div class="social-link"> */
 .conatc-links {
   margin-top: 20px;
   margin-bottom: 20px;

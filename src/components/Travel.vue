@@ -17,8 +17,7 @@
             Travel is a way to live without regrets. Here is some place that i
             travel and experience. I love to travel. I love to explore. I love
             to see the world. I love to see new places. I love to see new
-            things. I love to see new people. I love to see new things. I love
-            to see new things.
+            things. I love to see new people. I love to see new things.
           </p>
         </div>
 
@@ -42,11 +41,7 @@
         <div class="flex_container" id="blurb_flex">
           <!-- column one -->
           <article class="four_col_info_card">
-            <img
-              src="../assets/newyork.jpg"
-              alt="couple splashing around in a river at sunrise"
-              class="card_image"
-            />
+            <img src="../assets/newyork.jpg" alt="newyork" class="card_image" />
 
             <h3 class="travel-tag-name">New york Time square</h3>
 
@@ -65,7 +60,7 @@
           <article class="four_col_info_card">
             <img
               src="../assets/Hudson.jpeg"
-              alt="Sheena standing on the roof of a champagne Subaru at the salt flats"
+              alt="hudsonyard"
               class="card_image"
               height="45%"
             />
@@ -138,7 +133,7 @@
           <article class="four_col_info_card">
             <img
               src="../assets/animalkingdom.jpeg"
-              alt="pens cave"
+              alt="animalkingdom"
               class="card_image"
               height="45%"
             />
@@ -161,7 +156,7 @@
           <article class="four_col_info_card">
             <img
               src="../assets/miamibech.jpeg"
-              alt="epcoat"
+              alt="miamibeach"
               class="card_image"
               height="45%"
             />
@@ -185,7 +180,7 @@
           <article class="four_col_info_card">
             <img
               src="../assets/spacecenter.jpeg"
-              alt="pens cave"
+              alt="spacec center"
               class="card_image"
               height="45%"
             />
@@ -209,7 +204,7 @@
           <article class="four_col_info_card">
             <img
               src="../assets/acediapark.jpeg"
-              alt="epcoat"
+              alt="acedia park"
               class="card_image"
               height="45%"
             />
@@ -228,152 +223,6 @@
             </p>
           </article>
         </div>
-
-        <!-- this div introduces a div about my favorite travel locations -->
-        <!-- <div class="container-box">
-          <h2 class="travel-tag-name">New york Time square</h2>
-          <p class="tavelplace-info">
-            TIME SQUARE In New York is a famous landmark in the United States. I
-            find New York to be too hectic for me, particularly while visiting
-            Times Square. Especially at night, the views of all the lights in
-            Time Square are spectacular. Time Square is a very remarkable site
-            to visit and the heart of New York because of the crowds, the
-            spectacular perspective, and the lights.
-          </p>
-          <div class="image-box">
-            <img
-              src="../assets/newyork.jpg"
-              alt="times square"
-              width="30%"
-              height="20%"
-            />
-          </div>
-        </div>
-        <div>
-          <h2 class="travel-tag-name">Hudson yard</h2>
-          <p>
-            Hudson Yards is New York City's newest built-up neighborhood, with
-            new real estate, a fancy subway station that serves the 7 train, and
-            a few attractions like a one-million-square-foot retail center with
-            over 100 places to shop in NYC, new mouthwatering restaurants,
-            cultural performance venue The Shed, a five-acre smart park, and
-            Vessel, a climbable beehive.
-          </p>
-          <img
-            src="../assets/Hudson.jpeg"
-            alt="times square"
-            width="30%"
-            height="30%"
-          />
-        </div>
-        <div>
-          <h2 class="travel-tag-name">Penn's Cave & Wildlife Park</h2>
-          <p>
-            "America's ONLY All-Water Cavern & Farm-Nature-Wildlife Park!"
-            proclaims the pens' cave. Penn's Cave, the only cave on the National
-            Register of Historic Places in Pennsylvania, is known for its
-            glistening stalactites and stalagmites, which are commonly shaped
-            like "The Statue of Liberty" and "The Garden of the Gods."
-            Flowstone, curtains, cascades, and drapes have been sculpted by
-            falling water against a backdrop of pillars and massive columns.
-          </p>
-          <img
-            src="../assets/penscave.jpeg"
-            alt="times square"
-            width="30%"
-            height="20%"
-          />
-        </div>
-        <div>
-          <h2 class="travel-tag-name">EPCOT - Walt Disney World</h2>
-          <p>
-            "America's ONLY All-Water Cavern & Farm-Nature-Wildlife Park!"
-            proclaims the pens' cave. Penn's Cave, the only cave on the National
-            Register of Historic Places in Pennsylvania, is known for its
-            glistening stalactites and stalagmites, which are commonly shaped
-            like "The Statue of Liberty" and "The Garden of the Gods."
-            Flowstone, curtains, cascades, and drapes have been sculpted by
-            falling water against a backdrop of pillars and massive columns.
-          </p>
-          <img
-            src="../assets/epcot.jpeg"
-            alt="times square"
-            width="30%"
-            height="20%"
-          />
-        </div>
-        <div>
-          <h2 class="travel-tag-name">Disney's Animal Kingdom Park</h2>
-          <p>
-            "America's ONLY All-Water Cavern & Farm-Nature-Wildlife Park!"
-            proclaims the pens' cave. Penn's Cave, the only cave on the National
-            Register of Historic Places in Pennsylvania, is known for its
-            glistening stalactites and stalagmites, which are commonly shaped
-            like "The Statue of Liberty" and "The Garden of the Gods."
-            Flowstone, curtains, cascades, and drapes have been sculpted by
-            falling water against a backdrop of pillars and massive columns.
-          </p>
-          <img
-            src="../assets/animalkingdom.jpeg"
-            alt="times square"
-            width="30%"
-            height="20%"
-          />
-        </div>
-        <div>
-          <h2 class="travel-tag-name">Miami Beach</h2>
-          <p>
-            "America's ONLY All-Water Cavern & Farm-Nature-Wildlife Park!"
-            proclaims the pens' cave. Penn's Cave, the only cave on the National
-            Register of Historic Places in Pennsylvania, is known for its
-            glistening stalactites and stalagmites, which are commonly shaped
-            like "The Statue of Liberty" and "The Garden of the Gods."
-            Flowstone, curtains, cascades, and drapes have been sculpted by
-            falling water against a backdrop of pillars and massive columns.
-          </p>
-          <img
-            src="../assets/miamibech.jpeg"
-            alt="times square"
-            width="30%"
-            height="20%"
-          />
-        </div>
-        <div>
-          <h2 class="travel-tag-name">Kenedy Space Center</h2>
-          <p>
-            "America's ONLY All-Water Cavern & Farm-Nature-Wildlife Park!"
-            proclaims the pens' cave. Penn's Cave, the only cave on the National
-            Register of Historic Places in Pennsylvania, is known for its
-            glistening stalactites and stalagmites, which are commonly shaped
-            like "The Statue of Liberty" and "The Garden of the Gods."
-            Flowstone, curtains, cascades, and drapes have been sculpted by
-            falling water against a backdrop of pillars and massive columns.
-          </p>
-          <img
-            src="../assets/spacecenter.jpeg"
-            alt="times square"
-            width="30%"
-            height="20%"
-          />
-        </div>
-        <div>
-          <h2 class="travel-tag-name">Acedia National Park</h2>
-          <p>
-            "America's ONLY All-Water Cavern & Farm-Nature-Wildlife Park!"
-            proclaims the pens' cave. Penn's Cave, the only cave on the National
-            Register of Historic Places in Pennsylvania, is known for its
-            glistening stalactites and stalagmites, which are commonly shaped
-            like "The Statue of Liberty" and "The Garden of the Gods."
-            Flowstone, curtains, cascades, and drapes have been sculpted by
-            falling water against a backdrop of pillars and massive columns.
-          </p>
-          <img
-            src="../assets/acediapark.jpeg"
-            alt="times square"
-            width="30%"
-            height="20%"
-          />
-        </div> -->
       </div>
     </main>
   </body>

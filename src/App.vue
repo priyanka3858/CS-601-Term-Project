@@ -12,6 +12,11 @@
             <router-link to="/about" active-class="active">About</router-link>
           </li>
           <li>
+            <router-link to="/education" active-class="active"
+              >Education</router-link
+            >
+          </li>
+          <li>
             <router-link to="/work" active-class="active">Work</router-link>
           </li>
           <li>
@@ -29,11 +34,13 @@
       </nav>
     </header>
     <router-view class=""></router-view>
-    <footer>
-      <p class="footer-name">
-        &copy; © 2022 Priyanka Vekariya. All rights reserved.
-      </p>
-    </footer>
+    <div id="footer">
+      <footer>
+        <p class="footer-name">
+          &copy; © 2022 Priyanka Vekariya. All rights reserved.
+        </p>
+      </footer>
+    </div>
   </body>
 </template>
 
@@ -46,13 +53,14 @@ body {
   background-color: #efefef;
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
+
 .nav-list {
-  display: block;
+  /* display: block; */
   list-style: none;
   display: flex;
   justify-content: flex-end;
   position: static;
-  background: whitesmoke;
+  background: #e9dfd6;
   padding: 20px;
   border-radius: 10px;
   margin: 0;
@@ -85,5 +93,10 @@ a:hover {
 /* set CSS for fooetr name hover */
 .footer-name:hover {
   color: #e7bbbb;
+}
+
+#footer {
+  bottom: 0;
+  right: 0;
 }
 </style>

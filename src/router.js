@@ -5,6 +5,7 @@ import About from "/src/components/About.vue";
 import Work from "/src/components/Work.vue";
 import Travel from "/src/components/Travel.vue";
 import Contact from "/src/components/Contact.vue";
+import Education from "/src/components/Education.vue";
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: "/contact",
     name: "Contact",
     component: Contact,
+  },
+  {
+    path: "/education",
+    name: "Education",
+    component: Education,
   },
 ];
 

@@ -1,0 +1,22 @@
+{
+  "degrees": [
+    {
+      "school": "ICAI - The Institute of Chartered Accountants of India",
+      "program": "ICAI - IPCC",
+      "type": "Accountancy Certificate",
+      "year": 2016
+    },
+    {
+      "school": "IGNOU",
+      "program": "Bechlor of Commerce",
+      "type": "BS",
+      "year": 2019
+    },
+    {
+      "school": "Boston University",
+      "program": "Master of Science in Software Development",
+      "type": "MS",
+      "year": 2023
+    }
+  ]
+}

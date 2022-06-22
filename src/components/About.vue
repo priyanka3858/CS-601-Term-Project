@@ -1,14 +1,3 @@
-<!-- <script>
-export default {
-  name: "aa",
-  data() {
-    return {
-      image: "../assets/background_image.jpeg",
-    };
-  },
-};
-</script> -->
-
 <template>
   <body>
     <main id="intro-section" class="section-info">
@@ -43,180 +32,123 @@ export default {
           business background and a strong desire to learn new technology. 
         </p>
       </div>
+
       <!-- End About section -->
+      <!-- Start About info section -->
+      <div class="list-heading-div">
+        <h2 class="list-heading">Personal Information</h2>
+      </div>
+      <section class="about-list-div1">
+        <div class="about-list-div">
+          <div class="row-list">
+            <div class="column-list" style="background-color: #aaa">
+              <h3>Birthday</h3>
+              <p>01 Augest 1994</p>
+            </div>
+            <div class="column-list" style="background-color: #bbb">
+              <h3>Email</h3>
+              <p>Priyanka3858@gmail.com</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-list" style="background-color: #ccc">
+              <h3>Phone:</h3>
+              <p>+1 551-285-9566</p>
+            </div>
+            <div class="column-list" style="background-color: #ddd">
+              <h3>City:</h3>
+              <p>Jersey City, NJ</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About info section -->
 
-      <!-- this section goes over some of the major publications where my work has been featured -->
-      <section id="publications" class="single_column_section">
-        <h2>Where My Work Has Been Published</h2>
-        <p>
-          While working as a professional photographer documenting adventurous
-          mountain weddings and elopements, I've been able to have my photos
-          published in various news publications and wedding blogs. These are
-          just a few of the ones who have featured my photography work.
-        </p>
+      <!--  Start skill  info section -->
+      <div class="list-heading-div">
+        <h2 class="list-heading">Technical Skill</h2>
+      </div>
+      <section class="about-list-div1">
+        <div class="about-list-div">
+          <div class="row-list">
+            <div class="column-list" style="background-color: #aaa">
+              <h3>Python</h3>
+            </div>
+            <div class="column-list" style="background-color: #bbb">
+              <h3>Java</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-list" style="background-color: #ccc">
+              <h3>HTML</h3>
+            </div>
+            <div class="column-list" style="background-color: #ddd">
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-list" style="background-color: #aaa">
+              <h3>JavaScript</h3>
+            </div>
+            <div class="column-list" style="background-color: #bbb">
+              <h3>React, Vue</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-list" style="background-color: #ccc">
+              <h3>Github</h3>
+            </div>
+            <div class="column-list" style="background-color: #ddd">
+              <h3>Design Pattern</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  End skill  info section -->
 
-        <!-- table containing a subset of places my photography work has been published -->
+      <!-- collage course -->
+      <section>
         <table>
-          <!-- head of the table, with relevant categories about the publications -->
-          <thead class="publication_table_head">
+          <caption>
+            Core Courses in MSSD:
+          </caption>
+          <thead>
             <tr>
-              <th>Publication Name</th>
-              <th class="pub_date">Publication Year</th>
-              <th class="pub_locale">Publication Location</th>
+              <th scope="col">Course Name</th>
+              <th scope="col">Grade</th>
+              <th scope="col">Language Skill</th>
             </tr>
           </thead>
 
-          <!-- the actual publications themselves -->
           <tbody>
-            <tr class="odd">
-              <td>
-                <a
-                  href="https://www.womenshealthmag.com/"
-                  target="_blank"
-                  rel="nofollow"
-                  >Women's Health</a
-                >
-              </td>
-              <td class="pub_date">2020</td>
-              <td class="pub_locale">New York</td>
+            <tr>
+              <th scope="row">MET CS 521 Information Structures with Python</th>
+              <td>A</td>
+              <td>Python</td>
             </tr>
             <tr>
-              <td>
-                <a href="https://www.brides.com/" target="_blank" rel="nofollow"
-                  >Brides</a
-                >
-              </td>
-              <td class="pub_date">2018</td>
-              <td class="pub_locale">New York</td>
-            </tr>
-            <tr class="odd">
-              <td>
-                <a
-                  href="https://www.rocknrollbride.com/"
-                  target="_blank"
-                  rel="nofollow"
-                  >Rock n Roll Bride</a
-                >
-              </td>
-              <td class="pub_date">2020</td>
-              <td class="pub_locale">United Kingdom</td>
+              <th scope="row">MET CS 526 Data Structures and Algorithms</th>
+              <td>B</td>
+              <td>Java, Algorithms</td>
             </tr>
             <tr>
-              <td>
-                <a
-                  href="https://greenweddingshoes.com/"
-                  target="_blank"
-                  rel="nofollow"
-                  >Green Wedding Shoes</a
-                >
-              </td>
-              <td class="pub_date">2018 + 2021</td>
-              <td class="pub_locale">California</td>
-            </tr>
-            <tr class="odd">
-              <td>
-                <a
-                  href="https://www.popsugar.com/"
-                  target="_blank"
-                  rel="nofollow"
-                  >PopSugar</a
-                >
-              </td>
-              <td class="pub_date">2020</td>
-              <td class="pub_locale">California</td>
+              <th scope="row">MET CS 622 Advanced Programming Techniques</th>
+              <td>A</td>
+              <td>Java, SpringBoot</td>
             </tr>
             <tr>
-              <td>
-                <a href="https://www.yahoo.com/" target="_blank" rel="nofollow"
-                  >Yahoo!</a
-                >
-              </td>
-              <td class="pub_date">2020</td>
-              <td class="pub_locale">California</td>
-            </tr>
-            <tr class="odd">
-              <td>
-                <a
-                  href="https://www.rockymountainbride.com/"
-                  target="_blank"
-                  rel="nofollow"
-                  >Rocky Mountain Bride</a
-                >
-              </td>
-              <td class="pub_date">2018 + 2019</td>
-              <td class="pub_locale">Colorado</td>
+              <th scope="row">MET CS 665 Software Design and Patterns</th>
+              <td>A</td>
+              <td>Java, Design Pattern</td>
             </tr>
             <tr>
-              <td>
-                <a
-                  href="https://wanderingweddings.com/"
-                  target="_blank"
-                  rel="nofollow"
-                  >Wandering Weddings</a
-                >
-              </td>
-              <td class="pub_date">2019 + 2020 + 2021</td>
-              <td class="pub_locale">Washington</td>
-            </tr>
-            <tr class="odd">
-              <td>
-                <a
-                  href="https://www.sistersinlaw.se/"
-                  target="_blank"
-                  rel="nofollow"
-                  >Sisters in Law</a
-                >
-              </td>
-              <td class="pub_date">2021</td>
-              <td class="pub_locale">Sweden</td>
+              <th scope="row">MET CS 601 Web App Development</th>
+              <td>-</td>
+              <td>HTML, CSS, JavaScript, React, Vue</td>
             </tr>
           </tbody>
         </table>
       </section>
-
-      <div class="row">
-        <div class="col-lg-6">
-          <ul>
-            <li>
-              <i class="icofont-rounded-right"></i>
-              <strong>Birthday:</strong> 12 October 1996
-            </li>
-            <li>
-              <i class="icofont-rounded-right"></i> <strong>Phone:</strong> +1
-              480-401-8112
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-6">
-          <ul>
-            <li>
-              <i class="icofont-rounded-right"></i>
-              <strong>City:</strong> Tempe, AZ
-            </li>
-            <li>
-              <i class="icofont-rounded-right"></i>
-              <strong>Email:</strong> rajaprerak@gmail.com
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!--  Start Technical Skill section-->
-      <div id="skill-list">
-        <h3><b>Technical Skill</b></h3>
-        <ul class="about">
-          <li>Python</li>
-          <li>Java</li>
-          <li>Software Development</li>
-          <li>GitHub</li>
-          <li>Javascript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Software Design patterns</li>
-          <li>Data Structure and Algorithms</li>
-        </ul>
-      </div>
     </main>
     <!-- End Technical Skill section-->
   </body>
@@ -224,11 +156,6 @@ export default {
 
 <style scoped>
 h1 {
-  background-image: -moz-linear-gradient(
-    top,
-    rgba(126, 9, 9, 0.5) 0%,
-    rgba(255, 255, 255, 0.5) 100%
-  );
   color: #5a665f;
   font-family: Times, serif;
   font-weight: 700;
@@ -242,6 +169,10 @@ h1 {
   margin-bottom: 1rem;
   border-radius: 10px;
 }
+.my-intro {
+  width: 80%;
+  margin: 20px auto;
+}
 
 .paragraph-intro {
   font-size: 20px;
@@ -250,5 +181,115 @@ h1 {
   font-weight: 400;
   margin: 15px 160px 15px 160px;
   text-align: justify;
+}
+/* .personal-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 1rem;
+} */
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column-list {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row-list:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.about-list-div {
+  margin: 10px 80px 130px 80px;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Nunito", sans-serif; */
+  color: #384047;
+}
+
+table {
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+thead th {
+  font-weight: 400;
+  background: #8a97a0;
+  color: #fff;
+}
+
+tr {
+  background: #ccc;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+  background: #e8eeef;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8a97a0;
+}
+caption {
+  display: table-caption;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-block: 1px solid;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 5px;
+  margin-top: 60px;
+}
+.list-heading {
+  display: block;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border-block: 1px solid;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.list-heading-div {
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 </style>
