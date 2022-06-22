@@ -99,7 +99,7 @@
               <h3>Github</h3>
             </div>
             <div class="column-list" style="background-color: #ddd">
-              <h3>Design Pattern</h3>
+              <h3>Software Design Patterns</h3>
             </div>
           </div>
         </div>
@@ -110,7 +110,7 @@
       <section>
         <table>
           <caption>
-            Core Courses in MSSD:
+            Core Courses in MSSD
           </caption>
           <thead>
             <tr>
