@@ -19,6 +19,9 @@ export default {
   <div class="github_heading-div">
     <h1 class="github-heading">GitHub Project</h1>
   </div>
+  <!-- <div>
+    <p>Click The Below Box To See My Github Project Source Code.</p>
+  </div> -->
 
   <div class="grid-container">
     <a
@@ -43,9 +46,9 @@ export default {
   font-size: 1.2rem;
   line-height: 3.5rem;
   text-align: center;
-  margin: 20px auto;
-  /* margin: 1.4rem 4rem 4rem 2rem; */
-  padding: 12px;
+  margin: 60px auto 20px auto;
+  /* margin: 20px auto; */
+  padding: 5px;
   display: block;
   border: 1px solid #5a665f;
   border-radius: 10px;
@@ -55,10 +58,7 @@ export default {
 .grid-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: auto auto auto;
-
-  /* background-color: #aac4d9; */
-  /* padding: 10px; */
+  grid-template-columns: auto auto auto auto;
   column-gap: 10px;
   row-gap: 10px;
   margin-left: 70px;
@@ -66,8 +66,8 @@ export default {
 }
 
 .grid-item {
-  background-color: rgb(209, 197, 197);
-  border: 2px solid #5a66;
+  background-color: rgb(218, 211, 211);
+  border: 2px solid #aaa;
   border-radius: 7px;
   padding: 35px;
   font-size: 10px;
@@ -75,25 +75,24 @@ export default {
   margin: 30px 20px 30px 20px;
   justify-self: center;
   width: 50%;
-  height: 240px;
+  height: 150px;
 }
 .git-repo-name {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.2rem;
-  line-height: 1 rem;
+  font-size: 1rem;
   text-align: center;
 
   display: block;
+
   border: 1px solid #5a665f;
   border-radius: 10px;
-  padding: 0.5rem;
+  padding: 5px;
 }
 .project-lang {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.2rem;
-  line-height: 1 rem;
   text-align: center;
-
+  margin-top: 20px;
   display: block;
 
   padding: 0.5rem;

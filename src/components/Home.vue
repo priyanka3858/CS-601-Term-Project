@@ -1,7 +1,9 @@
+<!-- Home page HTML-->
 <template class="first_page">
   <body class="home">
     <!-- Start About section -->
     <div class="about_image">
+      <!-- set image -->
       <img
         class="my_image"
         src="../assets/my_photo.jpg"
@@ -10,10 +12,11 @@
         height="250"
       />
     </div>
-
+    <!-- Name section show name and designation-->
     <div class="about_name_section">
       <h1 class="about_info"><b>Priyanka Vekariya</b></h1>
       <p class="about_info">Software Develpoer</p>
+      <!-- Hire me button link to email -->
       <button id="bt1" class="button">
         <a
           id="mail_link"
@@ -22,6 +25,7 @@
           Hire me
         </a>
       </button>
+      <!-- Contact me button  router link to contact page-->
       <router-link :to="'/contact'">
         <button id="bt2" class="button">Contact me</button>
       </router-link>
@@ -29,6 +33,7 @@
   </body>
 </template>
 
+<!-- Home page CSS-->
 <style scoped>
 .about_image {
   margin-top: 10px;

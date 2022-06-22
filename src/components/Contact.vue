@@ -203,7 +203,7 @@ input[type="submit"]:hover {
 blockquote {
   font-size: 1.4em;
   width: 60%;
-  margin: 50px auto;
+  margin: 20px auto;
   font-family: Open Sans;
   font-style: italic;
   color: #555555;

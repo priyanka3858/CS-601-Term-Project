@@ -16,10 +16,6 @@
 
 To view this project on GitHub, please visit this link: [https://github.com/priyanka3858/CS-601-Term-Project.git]
 
-### Extra Credit - How I Went Above and Beyond / How I Learned
-
----
-
 ## Project Goal - Portfolio
 
 1. **Home.vue**
@@ -56,3 +52,39 @@ This is the Work page. This page has shows Project list Table and also describe 
 ---
 
 This is the Github page. This page has my public Github Repository in Grid layout. I have Create a API call to my public github responsitary. write Fuction that fetch json data from that API and display the data in the grid layout. I HAve fetch Project name, Project lanuage and project description. I have used CSS to make the grid layout.
+
+6. **Travel.vue**
+
+---
+
+This is the Travel page. This page show the list of my travel destination list. at the top of the page shows quote with CSS. I have use Flex to present a a image and a travel description. I have used CSS to make the flex layout with elegent color.
+
+7. **Conatct.vue**
+
+---
+
+This is the contact page. at the top of the page shows quote with CSS. I have add contact form with submit button and input field. I have used CSS to make the form with elegent color.
+
+At the end of the age show social contact link like facebook, twitter and instagram. I have write a JavaScript function to presents the beautiful the social icon with social link when click on the social contact link it will redirect to the social media page.
+
+I have used CSS Flex layout to make the social contact link with elegent color and hover effect.When Hover on icon it will cahnge the color of the icon.
+
+8. **App.vue**
+
+---
+
+This is the App.vue file. This file is the main file of the website. This file has the header, footer, and navigation bar. I have used CSS to make the header, footer, and navigation bar with elegent color.
+
+### Extra Credit - How I Went Above and Beyond / How I Learned
+
+---
+
+1. Adding ES6 or Higher Functionality + Including Content From Module 5 (Including the Fetch API)
+
+- I have used multiple ES6 functionality and higher, along with the content taught in Module 5 regarding fetch, async, and await. Specifically, I have used fetch to grab data from a JSON file. This file contains a list of Degree data I have put on in a table in the **Education page** on my website.
+
+* In GitHub Page, i have Create a Rest API call to my public github responsitary. along with the content taught in Module 5 regarding fetch, async, and await and write Fuction that fetch json data from that API and display the data in the grid layout. I have fetch Project name, Project lanuage and project description. I have used CSS to make the grid layout.
+
+- For ES6 functionality and higher, you'll notice an many use of template strings throughout , response ,promise in th the project's vue files. I have also use the v-for arrow functions, using let and const instead of var, and promises. My goal was to test out several ES6 functionalities in this term project.
+
+-

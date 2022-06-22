@@ -1,10 +1,14 @@
+<!-- About page HTML-->
 <template>
   <body>
     <main id="intro-section" class="section-info">
-      <div class="my-intro">
-        <h1><b>MY UNEXPECTED PATH </b></h1>
-      </div>
-
+      <!-- header section -->
+      <header>
+        <div class="my-intro">
+          <h1><b>MY UNEXPECTED PATH </b></h1>
+        </div>
+      </header>
+      <!-- this section shows intoduction page -->
       <div id="intro-para" class="my-info">
         <p class="paragraph-intro">
           Priyanka Vekariya is my name. My life path has been anything but
@@ -153,6 +157,8 @@
     <!-- End Technical Skill section-->
   </body>
 </template>
+
+<!-- About page CSS-->
 
 <style scoped>
 h1 {

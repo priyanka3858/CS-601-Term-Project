@@ -2,37 +2,35 @@
 
 <template>
   <body>
-    <header id="heder">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li>
-            <router-link to="/" active-class="active">Home</router-link>
-          </li>
-          <li>
-            <router-link to="/about" active-class="active">About</router-link>
-          </li>
-          <li>
-            <router-link to="/education" active-class="active"
-              >Education</router-link
-            >
-          </li>
-          <li>
-            <router-link to="/work" active-class="active">Work</router-link>
-          </li>
-          <li>
-            <router-link to="/github" active-class="active">Github</router-link>
-          </li>
-          <li>
-            <router-link to="/travel" active-class="active">Travel</router-link>
-          </li>
-          <li>
-            <router-link to="/contact" active-class="active"
-              >Contact</router-link
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <!-- <header id="header"> -->
+    <nav class="nav">
+      <ul class="nav-list">
+        <li>
+          <router-link to="/" active-class="active">Home</router-link>
+        </li>
+        <li>
+          <router-link to="/about" active-class="active">About</router-link>
+        </li>
+        <li>
+          <router-link to="/education" active-class="active"
+            >Education</router-link
+          >
+        </li>
+        <li>
+          <router-link to="/work" active-class="active">Work</router-link>
+        </li>
+        <li>
+          <router-link to="/github" active-class="active">Github</router-link>
+        </li>
+        <li>
+          <router-link to="/travel" active-class="active">Travel</router-link>
+        </li>
+        <li>
+          <router-link to="/contact" active-class="active">Contact</router-link>
+        </li>
+      </ul>
+    </nav>
+    <!-- </header> -->
     <router-view class=""></router-view>
     <div id="footer">
       <footer>
@@ -49,22 +47,43 @@
   margin: 0;
   padding: 0;
 }
+
 body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+  margin-top: 50px;
   background-color: #efefef;
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
 .nav-list {
-  /* display: block; */
+  display: block;
   list-style: none;
   display: flex;
-  justify-content: flex-end;
-  position: static;
-  background: #e9dfd6;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 0;
+  justify-content: space-around;
   font-weight: 450;
+
+  padding: 18px;
+}
+
+.nav-list a {
+  display: block;
+  font-size: 1.4rem;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: -webkit-fill-available;
+  background: #e9dfd6;
+  z-index: 7;
 }
 
 a {
@@ -79,13 +98,13 @@ a {
 
 a:hover {
   /* set nav hover decoration with transition effect */
-  color: #cf530c;
+  color: #56514f;
   transition: transform 0.5s ease;
   transform: scale(1);
 }
 
 .footer-name {
-  font-size: 12px;
+  font-size: 15px;
   color: #777;
   margin: 15px;
   float: right;
@@ -98,5 +117,16 @@ a:hover {
 #footer {
   bottom: 0;
   right: 0;
+}
+
+/* media query for tablet and smaller device */
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  a {
+    font-size: small;
+  }
 }
 </style>

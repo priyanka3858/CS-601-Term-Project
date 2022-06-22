@@ -84,7 +84,7 @@ export default {
   font-size: 1.7rem;
   line-height: 3.5rem;
   text-align: center;
-  margin: 2rem 2rem 2rem 2rem;
+  margin: 0rem 2rem 2rem 2rem;
   padding: 1rem;
   display: block;
   border: 1px solid #5a665f;
