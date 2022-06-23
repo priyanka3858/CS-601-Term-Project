@@ -1,4 +1,10 @@
+<!-- This file have Navigation and Footer -->
+
 <script>
+//  myFunction is a function that is called when the user clicks on the button.
+// this fnction getElementById("myTopnav") and then toggle the class "responsive"
+// on the element with the id "myTopnav"
+// if the class "responsive" is not present, then add it, otherwise remove it.
 export default {
   methods: {
     myFunction() {
@@ -14,7 +20,10 @@ export default {
 </script>
 
 <template>
+  <!-- This the Temlplate HTML for nav and fooeter  -->
   <body>
+    <!-- This is the Navigation Bar -->
+    <!-- whnen click on navbar it will route to that page -->
     <nav class="topnav" id="myTopnav">
       <router-link v-on:click="myFunction" to="/" active-class="active"
         >Home</router-link
@@ -37,6 +46,7 @@ export default {
       <router-link v-on:click="myFunction" to="/contact" active-class="active"
         >Contact</router-link
       >
+      <!--  add Responsive Menu icon -->
       <a href="javascript:void(0);" class="icon" v-on:click="myFunction">
         <svg
           xmlns="http://www.w3.org/2000/svg"

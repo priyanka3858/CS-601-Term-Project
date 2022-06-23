@@ -1,3 +1,4 @@
+// import all components from the components folder
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "/src/components/Home.vue";
 import Github from "/src/components/Github.vue";
@@ -6,6 +7,9 @@ import Work from "/src/components/Work.vue";
 import Travel from "/src/components/Travel.vue";
 import Contact from "/src/components/Contact.vue";
 import Education from "/src/components/Education.vue";
+
+// store all the routes in an array of objects with the following properties
+// set path to the route and set component to the component to be rendered
 
 const routes = [
   {
@@ -45,6 +49,7 @@ const routes = [
   },
 ];
 
+// create a new router instance with the history object and the routes array of objects as parameters to createRouter function
 const router = createRouter({
   history: createWebHistory(),
   routes,

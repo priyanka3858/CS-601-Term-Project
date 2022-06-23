@@ -1,5 +1,7 @@
 <!-- github project API call  -->
 <script>
+// this function fatch Data From Github API and response in json format
+// and then it will display in grid format
 export default {
   created() {
     fetch("https://api.github.com/users/priyanka3858/repos")
@@ -9,7 +11,7 @@ export default {
   data() {
     return {
       count: 0,
-      repoList: [],
+      repoList: [], // this is the array of data which will be fetch from github API
     };
   },
 };
@@ -24,6 +26,7 @@ export default {
   </div> -->
 
   <div class="grid-container">
+    <!-- This Html fathc data from API, using DOM to set data -->
     <a
       :href="item.svn_url"
       target="_blank"
@@ -39,6 +42,7 @@ export default {
 </template>
 
 <style scoped>
+/* This is the CSS github page  */
 .github_heading-div {
   color: #5a665f;
   font-family: "Alegreya Sans", Helvetica, Arial, "san serif";

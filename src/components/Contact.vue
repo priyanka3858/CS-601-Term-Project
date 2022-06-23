@@ -1,6 +1,7 @@
 <script setup>
 import { defineComponent, h } from "vue";
-
+// sopcial varibale to store the data of the socila link component
+// this is the data of the social link component and also add icon to the link
 const social = [
   {
     name: "Facebook",
@@ -74,6 +75,7 @@ const social = [
 </script>
 
 <template>
+  <!--Html for Conatact page -->
   <body>
     <section id="contact-info" class="section-info">
       <blockquote>
@@ -85,7 +87,7 @@ const social = [
       </div>
 
       <h3 class="form-info">Contact me</h3>
-
+      <!-- Form html data -->
       <div class="container">
         <form>
           <label for="fname">First Name</label>
@@ -116,15 +118,15 @@ const social = [
             style="height: 200px"
             required
           ></textarea>
-
+          <!-- Submit button -->
           <input type="submit" value="Submit" />
         </form>
       </div>
 
       <br />
       <!-- social contact start -->
-
       <div class="socialLinks">
+        <!-- using v-for loop in social array ,se t in social item -->
         <div class="socialItems">
           <a
             v-for="item in social"
@@ -143,6 +145,7 @@ const social = [
 </template>
 
 <style scoped>
+/* contact page style */
 .socialIcon {
   height: 1.5rem;
   width: 1.5rem;

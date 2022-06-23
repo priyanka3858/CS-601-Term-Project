@@ -1,4 +1,4 @@
-<!-- work -->
+<!-- This Work page show all Html and css data  -->
 <template>
   <body>
     <!-- START WORK INTRO SECTION -->
@@ -8,6 +8,7 @@
           <h3 class="work-heading">Work Experiance</h3>
           <div class="work-para">
             <p class="paragraph">
+              <!-- introduction paragraph -->
               Through this course in the MSSD program, I acquired the
               fundamentals of Python, Java, Javascript, React, Vue, HTML, and
               CSS.  I began learning basic HTML and CSS and built a few projects
@@ -96,6 +97,7 @@
 </template>
 
 <style scoped>
+/*  work page css */
 .work-heading {
   color: #5a665f;
   display: block;

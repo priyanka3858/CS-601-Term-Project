@@ -188,16 +188,7 @@ h1 {
   margin: 15px 160px 15px 160px;
   text-align: justify;
 }
-/* .personal-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0 auto;
-  width: 100%;
-  padding: 0;
-  margin-bottom: 1rem;
-} */
+
 * {
   box-sizing: border-box;
 }
