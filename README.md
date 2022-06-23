@@ -73,7 +73,9 @@ I have used CSS Flex layout to make the social contact link with elegent color a
 
 ---
 
-This is the App.vue file. This file is the main file of the website. This file has the header, footer, and navigation bar. I have used CSS to make the header, footer, and navigation bar with elegent color. this file also has the link to every page.
+App.vue file set Navbar and Footer.for navbar link Router link eveyp page and set link footer to every page. This file have used CSS to make the header, footer, and navigation bar with elegent color. This file also has the link to each other page. Navigation is visually appealing and user in this website.
+
+friendly.
 
 8. **index.html**
 
@@ -85,10 +87,10 @@ this file have html file and link main.js javascript file.
 
 ---
 
-Creating a Single-page Application with Vue + Vue Router feels natural: with router.js, we are already composing our application with components. When adding Vue Router to the mix, all we need to do is map our components to the routes and let Vue Router know where to render them. Note how instead of using regular a tags, we use a custom component router-link to create links. This allows Vue Router to change the URL without reloading the page, handle URL generation as well as its encoding. We will see later how to benefit from these features.
+This File has Store all the PAge router link in Const Variable. This file import all the complonents .vue file from the Components Folder and store in a list of array. Creating a Single-page Application with Vue + Vue Router feels natural: with router.js, we are already composing our application with components. When adding Vue Router to the mix, all we need to do is map our components to the routes and let Vue Router know where to render them. Note how instead of using regular a tags, we use a custom component router-link to create links. This allows Vue Router to change the URL without reloading the page, handle URL generation as well as its encoding. We will see later how to benefit from these features.
 
 router-view will display the component that corresponds to the url. You can put it anywhere to adapt it to your layout.
-this file have html file and link main.js javascript file.
+.
 
 8. **main.js**
 
