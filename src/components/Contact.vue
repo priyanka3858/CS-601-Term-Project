@@ -150,8 +150,11 @@ const social = [
 
 .socialItem {
   padding: 1rem;
+  color: rgb(159, 147, 147);
 }
-
+.socialItem:hover {
+  color: rgb(85, 70, 70);
+}
 .socialItems {
   display: flex;
   justify-content: center;
@@ -199,7 +202,6 @@ input[type="submit"]:hover {
   padding: 20px;
   margin: 20px 190px 20px 190px;
 }
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 blockquote {
   font-size: 1.4em;
   width: 60%;
@@ -264,14 +266,10 @@ blockquote::after {
 .social-footer {
   padding: 1rem;
   background: #8a8a8a;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+
   display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
+
   justify-content: space-between;
 }
 

@@ -73,7 +73,34 @@ I have used CSS Flex layout to make the social contact link with elegent color a
 
 ---
 
-This is the App.vue file. This file is the main file of the website. This file has the header, footer, and navigation bar. I have used CSS to make the header, footer, and navigation bar with elegent color.
+This is the App.vue file. This file is the main file of the website. This file has the header, footer, and navigation bar. I have used CSS to make the header, footer, and navigation bar with elegent color. this file also has the link to every page.
+
+8. **index.html**
+
+---
+
+this file have html file and link main.js javascript file.
+
+8. **router.js**
+
+---
+
+Creating a Single-page Application with Vue + Vue Router feels natural: with router.js, we are already composing our application with components. When adding Vue Router to the mix, all we need to do is map our components to the routes and let Vue Router know where to render them. Note how instead of using regular a tags, we use a custom component router-link to create links. This allows Vue Router to change the URL without reloading the page, handle URL generation as well as its encoding. We will see later how to benefit from these features.
+
+router-view will display the component that corresponds to the url. You can put it anywhere to adapt it to your layout.
+this file have html file and link main.js javascript file.
+
+8. **main.js**
+
+main.js file imoprt App.vue, router.js, and Vue. and mount all complonents to the DOM.
+
+---
+
+- Validation :-
+
+---
+
+In home.vue file I ahve validate CSS there is one warning but, that needed for animation.
 
 ### Extra Credit - How I Went Above and Beyond / How I Learned
 
@@ -87,4 +114,4 @@ This is the App.vue file. This file is the main file of the website. This file h
 
 - For ES6 functionality and higher, you'll notice an many use of template strings throughout , response ,promise in th the project's vue files. I have also use the v-for arrow functions, using let and const instead of var, and promises. My goal was to test out several ES6 functionalities in this term project.
 
--
+- I have made navigation bar responsive with flex design layout. I have used CSS to make the navigation bar responsive with icon. when click on the icon it will show the navigation bar while click on the icon again it will hide the navigation bar.

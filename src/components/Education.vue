@@ -151,7 +151,7 @@ table,
 th,
 td {
   border: 1px solid;
-  border-style: rounded;
+  border-style: double;
   border-color: #bbbdbb;
 }
 

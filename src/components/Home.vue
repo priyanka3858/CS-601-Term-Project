@@ -25,6 +25,7 @@
           Hire me
         </a>
       </button>
+
       <!-- Contact me button  router link to contact page-->
       <router-link :to="'/contact'">
         <button id="bt2" class="button">Contact me</button>
@@ -84,13 +85,18 @@
   color: #cf530c;
   transition: transform 0.5s ease;
   transform: scale(1);
+  text-decoration: none;
 }
 a:hover {
   cursor: pointer;
+  text-decoration: none;
 }
 #mail_link {
   font-size: 13px;
   color: rgb(96, 71, 71);
+}
+a#mail_link {
+  text-decoration: none;
 }
 
 h1 {

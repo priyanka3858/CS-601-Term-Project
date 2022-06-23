@@ -77,11 +77,16 @@ export default {
   width: 50%;
   height: 150px;
 }
+
+a.grid-item {
+  text-decoration: none;
+}
+
 .git-repo-name {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1rem;
   text-align: center;
-
+  color: #564e43;
   display: block;
 
   border: 1px solid #5a665f;
@@ -94,7 +99,7 @@ export default {
   text-align: center;
   margin-top: 20px;
   display: block;
-
+  color: #564e43;
   padding: 0.5rem;
 }
 </style>

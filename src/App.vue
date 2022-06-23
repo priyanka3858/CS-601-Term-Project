@@ -1,43 +1,71 @@
-<script setup></script>
+<script>
+export default {
+  methods: {
+    myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    },
+  },
+};
+</script>
 
 <template>
   <body>
-    <!-- <header id="header"> -->
-    <nav class="nav">
-      <ul class="nav-list">
-        <li>
-          <router-link to="/" active-class="active">Home</router-link>
-        </li>
-        <li>
-          <router-link to="/about" active-class="active">About</router-link>
-        </li>
-        <li>
-          <router-link to="/education" active-class="active"
-            >Education</router-link
-          >
-        </li>
-        <li>
-          <router-link to="/work" active-class="active">Work</router-link>
-        </li>
-        <li>
-          <router-link to="/github" active-class="active">Github</router-link>
-        </li>
-        <li>
-          <router-link to="/travel" active-class="active">Travel</router-link>
-        </li>
-        <li>
-          <router-link to="/contact" active-class="active">Contact</router-link>
-        </li>
-      </ul>
+    <nav class="topnav" id="myTopnav">
+      <router-link v-on:click="myFunction" to="/" active-class="active"
+        >Home</router-link
+      >
+      <router-link v-on:click="myFunction" to="/about" active-class="active"
+        >About</router-link
+      >
+      <router-link v-on:click="myFunction" to="/education" active-class="active"
+        >Education</router-link
+      >
+      <router-link v-on:click="myFunction" to="/work" active-class="active"
+        >Work</router-link
+      >
+      <router-link v-on:click="myFunction" to="/github" active-class="active"
+        >Github</router-link
+      >
+      <router-link v-on:click="myFunction" to="/travel" active-class="active"
+        >Travel</router-link
+      >
+      <router-link v-on:click="myFunction" to="/contact" active-class="active"
+        >Contact</router-link
+      >
+      <a href="javascript:void(0);" class="icon" v-on:click="myFunction">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-2 w-2"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </a>
     </nav>
     <!-- </header> -->
-    <router-view class=""></router-view>
-    <div id="footer">
-      <footer>
-        <p class="footer-name">
-          &copy; © 2022 Priyanka Vekariya. All rights reserved.
-        </p>
-      </footer>
+    <div id="page-container">
+      <div id="content-wrap">
+        <!-- all other page content -->
+        <router-view class=""></router-view>
+      </div>
+      <div id="footer">
+        <footer id="footer">
+          <p class="footer-name">
+            © 2022 Priyanka Vekariya. All rights reserved.
+          </p>
+        </footer>
+      </div>
     </div>
   </body>
 </template>
@@ -49,10 +77,8 @@
 }
 
 body {
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
   overflow-y: scroll;
-  margin-top: 50px;
   background-color: #efefef;
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
@@ -61,72 +87,85 @@ body::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
 
-.nav-list {
+.topnav {
+  overflow: hidden;
+  background-color: #e9dfd6;
+  margin-bottom: 25px;
+  padding: 0 25px 0 25px;
+}
+
+.topnav a {
+  float: left;
   display: block;
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  font-weight: 450;
-
-  padding: 18px;
-}
-
-.nav-list a {
-  display: block;
-  font-size: 1.4rem;
-}
-.nav {
-  display: flex;
-  justify-content: flex-end;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: -webkit-fill-available;
-  background: #e9dfd6;
-  z-index: 7;
-}
-
-a {
-  /* set nav list link a decoration */
-  text-decoration: none;
-  font-size: 27px;
-  padding: 0 22px;
-  display: inline-block;
   color: rgb(147, 127, 127);
   font-weight: 600;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
 }
 
-a:hover {
-  /* set nav hover decoration with transition effect */
+.topnav a:hover {
   color: #56514f;
+  background-color: #d2c6c2;
+
   transition: transform 0.5s ease;
   transform: scale(1);
 }
 
-.footer-name {
-  font-size: 15px;
-  color: #777;
-  margin: 15px;
-  float: right;
+.topnav .icon {
+  display: none;
 }
-/* set CSS for fooetr name hover */
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+    width: 30px;
+    height: 32px;
+  }
+}
 .footer-name:hover {
-  color: #e7bbbb;
+  color: #766767;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+#page-container {
+  position: relative;
+  min-height: 90vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem; /* Footer height */
 }
 
 #footer {
+  position: absolute;
   bottom: 0;
-  right: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
 }
 
-/* media query for tablet and smaller device */
-@media all and (min-width: 480px) and (max-width: 768px) {
-  .nav {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  a {
-    font-size: small;
-  }
+.footer-name {
+  color: #af9090;
 }
 </style>

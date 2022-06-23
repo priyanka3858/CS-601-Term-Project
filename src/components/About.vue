@@ -37,7 +37,7 @@
         </p>
       </div>
 
-      <!-- End About section -->
+      <!-- End intro  section -->
       <!-- Start About info section -->
       <div class="list-heading-div">
         <h2 class="list-heading">Personal Information</h2>
@@ -222,8 +222,6 @@ h1 {
 *,
 *:before,
 *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 

@@ -41,7 +41,11 @@
         <div class="flex_container" id="blurb_flex">
           <!-- column one -->
           <article class="four_col_info_card">
-            <img src="../assets/newyork.jpg" alt="newyork" class="card_image" />
+            <img
+              src="../assets/newyork.jpeg"
+              alt="newyork"
+              class="card_image"
+            />
 
             <h3 class="travel-tag-name">New york Time square</h3>
 
@@ -229,12 +233,11 @@
 </template>
 
 <style scoped>
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 blockquote {
   font-size: 1.4em;
   width: 60%;
   margin: 20px auto;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-style: italic;
   color: #555555;
   padding: 1.2em 30px 1.2em 75px;
@@ -245,7 +248,7 @@ blockquote {
 }
 
 blockquote::before {
-  font-family: Arial;
+  font-family: "Arial";
   content: "\201C";
   color: #78c0a8;
   font-size: 4em;
@@ -274,7 +277,7 @@ blockquote::before {
 }
 
 .travel-info {
-  display: -block;
+  display: block;
   font-weight: 300;
   font-size: 22px;
   text-align: center;
@@ -283,7 +286,7 @@ blockquote::before {
 }
 
 .tavelplace-info {
-  display: -block;
+  display: block;
   font-size: 18px;
   text-align: right;
   margin: 20px 190px 20px 190px;
@@ -310,18 +313,7 @@ blockquote::before {
   background-size: cover;
   height: 45%;
 }
-/* h3 {
-  color: #5f2e21;
-  font-family: "Alegreya Sans", Helvetica, Arial, "san serif";
-  font-size: 1.5rem;
-  font-weight: 300;
-  line-height: 1.7rem;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 1rem 2rem;
-  padding: 1rem; 
-} */
+
 .single_column_section p {
   margin: 1.4rem auto;
   width: 80%;
