@@ -81,7 +81,7 @@ friendly.
 
 ---
 
-this file have html file and link main.js javascript file.
+this file is starter html file and link main.js file.
 
 8. **router.js**
 
