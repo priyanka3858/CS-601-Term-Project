@@ -15,7 +15,7 @@
 
 - To view this project on GitHub, please visit this link: [https://github.com/priyanka3858/CS-601-Term-Project.git]
 
-- To access the live website (which is hosted on Cloudlare) link:- [https://601.pages.dev/]
+- To access the live website (which is hosted on Cloudflare) link:- [https://601.pages.dev/]
 
 ## Project Goal - Portfolio
 

@@ -132,7 +132,7 @@
             </tr>
             <tr>
               <th scope="row">MET CS 526 Data Structures and Algorithms</th>
-              <td>B</td>
+              <td>A</td>
               <td>Java, Algorithms</td>
             </tr>
             <tr>
