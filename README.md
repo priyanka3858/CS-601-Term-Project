@@ -16,7 +16,7 @@
 
 - To view this project on GitHub, please visit this link: [https://github.com/priyanka3858/CS-601-Term-Project.git]
 
-- To access the live website (which is hosted on Netlify) link:- [https://601.pages.dev/work]
+- To access the live website (which is hosted on Netlify) link:- [https://601.pages.dev/]
 
 ## Project Goal - Portfolio
 
