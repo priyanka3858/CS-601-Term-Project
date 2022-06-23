@@ -9,6 +9,15 @@
 - Header, Footer, and Navigation Bar store as an seperate componentefile "App.vue" and link with every (page)Components file.
 - I have also placed the images in the "../src/assets" directory.
 
+### How to Run the Project
+
+--
+
+To Start a project pull github Repository to your computer and then run the following command in your terminal:
+
+1. npm install
+2. npm run dev
+
 ### Github Repository
 
 ---
