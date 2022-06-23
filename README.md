@@ -8,7 +8,6 @@
 - This project fully developed in Vue.js Framework.The homepage is the filename _"Home.vue"_. I have placed the every page as Components in Components Folder. There are 7 Components in tota are _"Home.vue", "About.vue", "Education.vue", "Work.vue", "Github.vue", "Travel.vue", "Conatct.vue"._
 - Header, Footer, and Navigation Bar store as an seperate componentefile "App.vue" and link with every (page)Components file.
 - I have also placed the images in the "../src/assets" directory.
-- To access the live website (which is hosted on Cloudflare) link:-
 
 ### Github Repository
 
@@ -16,7 +15,7 @@
 
 - To view this project on GitHub, please visit this link: [https://github.com/priyanka3858/CS-601-Term-Project.git]
 
-- To access the live website (which is hosted on Netlify) link:- [https://601.pages.dev/]
+- To access the live website (which is hosted on Cloudlare) link:- [https://601.pages.dev/]
 
 ## Project Goal - Portfolio
 
